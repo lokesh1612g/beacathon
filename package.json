@@ -1,0 +1,19 @@
+{
+  "name": "BeacathonService",
+  "version": "0.0.0",
+  "description": "Service for the beacon poc project.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lokesh",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "express": "^4.12.3",
+    "jade": "^1.9.2",
+    "mongoose": "^4.0.1",
+    "node-gcm": "^0.9.15"
+  },
+  "devDependencies": {}
+}
