@@ -25,5 +25,6 @@ app.use('/register', registrations);
 
 
 //set server port
-app.listen(9000);
+var port = process.env.PORT || 1337;
+app.listen(port);
 console.log('serer is running');
